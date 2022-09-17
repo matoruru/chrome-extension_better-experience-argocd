@@ -1,0 +1,25 @@
+{
+  "name": "Better Experience for Argo CD",
+  "action": {},
+  "manifest_version": 3,
+  "version": "0.1",
+  "description": "Add a realtime-filter feature for input fields such as Project Name, Repository URL and Cluster URL.",
+  "icons": {
+    "16": "assets/icons/16.png",
+    "48": "assets/icons/48.png",
+    "128": "assets/icons/128.png"
+  },
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*/applications*",
+        "http://*/applications*"
+      ],
+      "js": [
+        "app.js"
+      ],
+      "run_at": "document_end"
+    }
+  ]
+}
