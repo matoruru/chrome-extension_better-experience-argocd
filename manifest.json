@@ -5,9 +5,9 @@
   "version": "1.0.0",
   "description": "Add a realtime-filter feature for input fields such as Project Name, Repository URL and Cluster URL.",
   "icons": {
-    "16": "assets/icons/16.png",
-    "48": "assets/icons/48.png",
-    "128": "assets/icons/128.png"
+    "16": "./extension/assets/icons/16.png",
+    "48": "./extension/assets/icons/48.png",
+    "128": "./extension/assets/icons/128.png"
   },
   "permissions": [],
   "content_scripts": [
@@ -17,7 +17,7 @@
         "http://*/applications*"
       ],
       "js": [
-        "app.js"
+        "./extension/app.js"
       ],
       "run_at": "document_end"
     }
