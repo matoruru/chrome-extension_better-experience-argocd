@@ -2,7 +2,7 @@
 
 This adds useful features for your Argo CD UI.
 
-🚧 More details are under construction ...　🚧
+🚧 More details are under construction ... 🚧
 
 # Installation
 
