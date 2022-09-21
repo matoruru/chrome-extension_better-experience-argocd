@@ -1,6 +1,6 @@
 # Better Experience for Argo CD
 
-Add a realtime-filter feature for input fields such as Project Name, Repository URL and Cluster URL.
+Adds a realtime-filter feature for input fields such as Project Name, Repository URL and Cluster URL.
 
 ### Problem
 
