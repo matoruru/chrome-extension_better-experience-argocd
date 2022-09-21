@@ -1,10 +1,18 @@
 # Better Experience for Argo CD
 
-This adds useful features for your Argo CD UI.
+Add a realtime-filter feature for input fields such as Project Name, Repository URL and Cluster URL.
+
+Problem: Argo CD's UI doesn't filter those values in a list based on your input so as the number of values increases it causes a looooong scroll for you to reach the value that you want.
+
+Why you need this: This extension solves the problem above by providing a realtime-filter feature which updates the displayed list based on your input.
 
 🚧 More details are under construction... 🚧
 
 # Installation
+
+[Better Experience for Argo CD - Chrome Web Store](https://chrome.google.com/webstore/detail/better-experience-for-arg/khpjdlmlaoikdkkjfkeelkcpgmabmcpb?hl=en&authuser=0)
+
+# Development
 
 1. Clone this repo.
 
