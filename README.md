@@ -19,7 +19,7 @@ This extension solves the problem above by providing a realtime-filter feature w
 1. Clone this repo.
 
    ```
-   git@github.com:matoruru/chrome-extension_better-experience-argocd.git
+   gh repo clone matoruru/chrome-extension_better-experience-argocd
    ```
 
 1. **Enable** developer mode from `chrome://extensions/`.
